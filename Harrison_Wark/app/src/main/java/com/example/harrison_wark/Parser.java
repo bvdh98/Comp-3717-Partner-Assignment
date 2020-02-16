@@ -4,8 +4,6 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Parser {
-    // https://newsapi.org/v2/everything?q=bitcoin&from=2020-1-28&sortBy=publishedAt&apiKey=a8584850a6134eb79c7c8c9d367faf5e
-    // http://data.vncvr.ca/api/people
 
     @SerializedName("id")
     @Expose

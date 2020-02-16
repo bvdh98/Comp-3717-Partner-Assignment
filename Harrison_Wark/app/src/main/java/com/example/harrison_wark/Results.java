@@ -17,7 +17,9 @@ public class Results extends AppCompatActivity {
     private String TAG = MainActivity.class.getSimpleName();
     private ListView lv;
     // URL to get contacts JSON
-    private static String SERVICE_URL = "https://newsapi.org/v2/everything?q=bitcoin&from=2020-1-28&sortBy=publishedAt&apiKey=a8584850a6134eb79c7c8c9d367faf5e";
+    // https://newsapi.org/v2/everything?q=bitcoin&from=2020-1-28&sortBy=publishedAt&apiKey=a8584850a6134eb79c7c8c9d367faf5e
+    // http://data.vncvr.ca/api/people
+    private static String SERVICE_URL = "http://data.vncvr.ca/api/people";
     private ArrayList<Parser> resultList;
 
 
